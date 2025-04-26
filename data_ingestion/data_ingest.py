@@ -11,4 +11,5 @@ class ingest_data:
     def data_ingestion(self):
         pass
 
-    
+if __name__ == '__main__':
+    data_ingestion = ingest_data()
