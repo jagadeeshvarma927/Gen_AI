@@ -1,13 +1,13 @@
 astra_db:
-  collection_name: "ecomm_latest_data"
+  collection_name: "ecomm_sales_data"
 
 embedding_model:
   provider: "google"
   model_name: "models/text-embedding-004"
 
 retriever:
-  top_k: 3
+  top_k: 10
 
 llm:
   provider: "google"
-  model_name: "gemini-1.5-pro"  
+  model_name: "deepseek-r1-distill-llama-70b" 
